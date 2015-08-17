@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		8463EF111B82633A0029B94C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8463EF101B82633A0029B94C /* main.m */; };
 		8463EF141B82633A0029B94C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8463EF131B82633A0029B94C /* AppDelegate.m */; };
-		8463EF171B82633A0029B94C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8463EF161B82633A0029B94C /* ViewController.m */; };
 		8463EF1A1B82633A0029B94C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8463EF181B82633A0029B94C /* Main.storyboard */; };
 		8463EF1C1B82633A0029B94C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8463EF1B1B82633A0029B94C /* Images.xcassets */; };
 		8463EF1F1B82633A0029B94C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8463EF1D1B82633A0029B94C /* LaunchScreen.xib */; };
 		8463EF2B1B82633A0029B94C /* _5__TableViewSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8463EF2A1B82633A0029B94C /* _5__TableViewSearchTests.m */; };
+		8463EF361B8264190029B94C /* NVStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8463EF351B8264190029B94C /* NVStudent.m */; };
+		8463EF391B8267290029B94C /* NVStudentsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8463EF381B8267290029B94C /* NVStudentsTableViewController.m */; };
+		8463EF3C1B826AB40029B94C /* NVSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8463EF3B1B826AB40029B94C /* NVSection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,18 @@
 		8463EF101B82633A0029B94C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8463EF121B82633A0029B94C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8463EF131B82633A0029B94C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8463EF151B82633A0029B94C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8463EF161B82633A0029B94C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8463EF191B82633A0029B94C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8463EF1B1B82633A0029B94C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8463EF1E1B82633A0029B94C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8463EF241B82633A0029B94C /* 35. TableViewSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "35. TableViewSearchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8463EF291B82633A0029B94C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8463EF2A1B82633A0029B94C /* _5__TableViewSearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _5__TableViewSearchTests.m; sourceTree = "<group>"; };
+		8463EF341B8264190029B94C /* NVStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVStudent.h; sourceTree = "<group>"; };
+		8463EF351B8264190029B94C /* NVStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVStudent.m; sourceTree = "<group>"; };
+		8463EF371B8267290029B94C /* NVStudentsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVStudentsTableViewController.h; sourceTree = "<group>"; };
+		8463EF381B8267290029B94C /* NVStudentsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVStudentsTableViewController.m; sourceTree = "<group>"; };
+		8463EF3A1B826AB40029B94C /* NVSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVSection.h; sourceTree = "<group>"; };
+		8463EF3B1B826AB40029B94C /* NVSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVSection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +89,12 @@
 			children = (
 				8463EF121B82633A0029B94C /* AppDelegate.h */,
 				8463EF131B82633A0029B94C /* AppDelegate.m */,
-				8463EF151B82633A0029B94C /* ViewController.h */,
-				8463EF161B82633A0029B94C /* ViewController.m */,
+				8463EF371B8267290029B94C /* NVStudentsTableViewController.h */,
+				8463EF381B8267290029B94C /* NVStudentsTableViewController.m */,
+				8463EF3A1B826AB40029B94C /* NVSection.h */,
+				8463EF3B1B826AB40029B94C /* NVSection.m */,
+				8463EF341B8264190029B94C /* NVStudent.h */,
+				8463EF351B8264190029B94C /* NVStudent.m */,
 				8463EF181B82633A0029B94C /* Main.storyboard */,
 				8463EF1B1B82633A0029B94C /* Images.xcassets */,
 				8463EF1D1B82633A0029B94C /* LaunchScreen.xib */,
@@ -219,9 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8463EF171B82633A0029B94C /* ViewController.m in Sources */,
 				8463EF141B82633A0029B94C /* AppDelegate.m in Sources */,
 				8463EF111B82633A0029B94C /* main.m in Sources */,
+				8463EF361B8264190029B94C /* NVStudent.m in Sources */,
+				8463EF391B8267290029B94C /* NVStudentsTableViewController.m in Sources */,
+				8463EF3C1B826AB40029B94C /* NVSection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
