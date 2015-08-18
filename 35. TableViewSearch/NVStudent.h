@@ -13,5 +13,7 @@
 @property (strong,nonatomic) NSString* lastname;
 @property (strong,nonatomic) NSDate * dateOfBirth;
 @property (assign,nonatomic) NSInteger monthOfBirth;
+@property (assign,nonatomic) NSRange rangeInFirstname;
+@property (assign,nonatomic) NSRange rangeInLastname;
 - (instancetype)initWithProperties;
 @end
